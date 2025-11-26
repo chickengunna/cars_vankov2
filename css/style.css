@@ -203,6 +203,21 @@ body {
 }
 }
 
+@media (max-width: 1024px) {
+    .image_car {
+        width: 80px; 
+    }
+    .cardsa {
+        gap: 15px;
+    }
+    .car-item-title {
+        font-size: 22px; 
+    }
+    .sub-title {
+    font-size: 55px;
+    }
+}
+
 @media (max-width: 992px) {
     .main-title { 
         font-size: 50px; 
@@ -228,7 +243,9 @@ body {
          width: 100%;
     }
     .sub-title { 
-        font-size: 32px; line-height: 1.2; text-align: center; 
+        font-size: 32px; 
+        line-height: 1.2; 
+        text-align: center; 
     }
     
     .price-form { 
